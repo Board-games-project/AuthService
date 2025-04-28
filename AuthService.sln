@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Dto", "AuthService.Dto\AuthService.Dto.csproj", "{3B607601-B9A8-435E-AEFB-52DAF0BD0F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Business", "AuthService.Business\AuthService.Business.csproj", "{7F37FD43-C4C2-48BA-A770-8E920A26E3E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,5 +25,13 @@ Global
 		{D7A8C3B9-2C6B-4967-AA1B-8839F752D127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A8C3B9-2C6B-4967-AA1B-8839F752D127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A8C3B9-2C6B-4967-AA1B-8839F752D127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B607601-B9A8-435E-AEFB-52DAF0BD0F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B607601-B9A8-435E-AEFB-52DAF0BD0F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B607601-B9A8-435E-AEFB-52DAF0BD0F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B607601-B9A8-435E-AEFB-52DAF0BD0F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F37FD43-C4C2-48BA-A770-8E920A26E3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F37FD43-C4C2-48BA-A770-8E920A26E3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F37FD43-C4C2-48BA-A770-8E920A26E3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F37FD43-C4C2-48BA-A770-8E920A26E3E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
